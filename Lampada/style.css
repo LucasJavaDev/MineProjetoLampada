@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #979797;
+}
+
+#container-img {
+  position: relative;
+
+  height: 500px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+#container-btn {
+  position: absolute;
+  bottom: 50px;
+}
+.btn {
+  height: 40px;
+  width: 100px;
+}
+
+#imagem {
+  cursor: pointer;
+}
